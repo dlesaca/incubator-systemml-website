@@ -25,12 +25,15 @@
         &:hover {
           color: #fff;
         }
-        .icon-chevron-down {
-          top: -1px;
-          background-size: 10.987px 6.201px;
-      		width: 10.987px; height: 6.201px;
-          margin-left: 10px;
-        }
+      }
+      .nav-link--hover:after {
+        content: '';
+        width: 10.987px;
+        height: 6.201px;
+        display: inline-block;
+        background-image: map-get($icons, chevron-down);
+        position: relative;
+        left: 0.5em;
       }
     }
     ul {
