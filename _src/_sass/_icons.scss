@@ -1,5 +1,7 @@
 @import "icons/index";
 
+// For list of available icon paths see: ./_src/_sass/icons/_maps.scss
+
 .icon {
   @extend %icon;
   &--youtube {
@@ -38,55 +40,37 @@
     @include icon-size(34px, 34px);
     background-image: map-get($icons, play-button);
   }
+  &--chevron-down {
+    @include icon-size(11px 6px);
+    background-image: map-get($icons, chevron-down);
+  }
+  //Partner logos
+  &--spark-logo {
+    @include icon-size(70px, 45px);
+    background-image: map-get($logos, spark);
+  }
+  &--hadoop-logo {
+    @include icon-size(60px, 45px);
+    background-image: map-get($logos, hadoop);
+  }
+  &--jupyter-logo {
+    @include icon-size(51px, 55px);
+    background-image: map-get($logos, jupyter);
+  }
+  &--zeppelin-logo {
+    @include icon-size(58px, 35px);
+    background-image: map-get($logos, zeppelin);
+  }
+  &--dsx-logo {
+    @include icon-size(64px, 27px);
+    background-image: map-get($logos, dsx);
+  }
+  &--python-logo {
+    @include icon-size(64px, 27px);
+    background-image: map-get($logos, python);
+  }
+  &--r-logo {
+    @include icon-size(64px, 27px);
+    background-image: map-get($logos, r);
+  }
 }
-
-// .icon {
-//   position: relative;
-// 	display: inline-block;
-// 	text-indent: 0;
-// 	line-height: 1;
-// 	background-size: 100%;
-//   background-position: center;
-// 	background-repeat: no-repeat;
-//   &.icon-chevron-down {
-// 		background-image: none, url('../img/icon-chevron-down.svg');
-//     background-size: 11px 6px;
-//     width: 11px; height: 6px;
-// 	}
-//   // Partner Logos
-//   &.spark-logo {
-// 		background-image: none, url('../img/spark-logo.png');
-//     background-size: 70px 45px;
-//     width: 70px; height: 55px;
-// 	}
-//   &.hadoop-logo {
-// 		background-image: none, url('../img/hadoop-logo.png');
-//     background-size: 60px 45px;
-//     width: 60px; height: 55px;
-// 	}
-//   &.jupyter-logo {
-// 		background-image: none, url('../img/jupyter-logo.png');
-//     background-size: 51px 55px;
-//     width: 51px; height: 55px;
-// 	}
-//   &.zeppelin-logo {
-// 		background-image: none, url('../img/zeppelin-logo.png');
-//     background-size: 58px 35px;
-//     width: 58px; height: 55px;
-// 	}
-//   &.dsx-logo {
-// 		background-image: none, url('../img/dsx-logo.png');
-//     background-size: 64px 27px;
-//     width: 64px; height: 55px;
-// 	}
-//   &.python-logo {
-// 		background-image: none, url('../img/python-logo-generic.svg');
-//     background-size: 64px 27px;
-//     width: 64px; height: 55px;
-// 	}
-//   &.r-logo {
-// 		background-image: none, url('../img/r-logo.svg');
-//     background-size: 64px 27px;
-//     width: 64px; height: 55px;
-// 	}
-// }

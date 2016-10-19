@@ -1,32 +1,32 @@
-@import "vendor/ap-components.min.scss";
-@import "config.scss";
+@import "vendor/ap-components.min";
+@import "config";
 
 @import "susy";
 
 // Icons
-@import "icons.scss";
+@import "icons";
 
 // Mixins
-@import "mixins.scss";
+@import "mixins";
 
-@import "navigation.scss";
+@import "navigation";
 
 // Base Styles
-@import "base.scss";
+@import "base";
 
 // Layout
-@import "layout.scss";
+@import "layout";
 
 // Typography
-@import "buttons.scss";
+@import "buttons";
 
 //Site header
-@import "header.scss";
+@import "header";
 
 // Hero Banners
-@import "banners.scss";
+@import "banners";
 
 // Modals
-@import "modals.scss";
+@import "modals";
 
-@import "modules.scss";
+@import "modules";

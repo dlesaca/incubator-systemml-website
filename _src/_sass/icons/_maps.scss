@@ -9,5 +9,17 @@ $icons: (
   data: url('../img/icons/icon-data.svg'),
   code: url('../img/icons/icon-code.svg'),
   close: url('../img/icons/icon-close.svg'),
-  play-button: url('../img/icons/icon-play-button.svg')
+  play-button: url('../img/icons/icon-play-button.svg'),
 );
+
+$logos: (
+  apache: url('../img/logos/apache-logo.png'),
+  dsx: url('../img/logos/dsx-logo.png'),
+  hadoop: url('../img/logos/hadoop-logo.png'),
+  jupyter: url('../img/logos/jupyter-logo.png'),
+  python: url('../img/logos/python-logo-generic.svg'),
+  r: url('../img/logos/r-logo.svg'),
+  spark: url('../img/logos/spark-logo.png'),
+  systemml: url('../img/logos/systemml-logo.png'),
+  zeppelin: url('../img/logos/zeppelin-logo.png')
+)
