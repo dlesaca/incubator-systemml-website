@@ -1,0 +1,18 @@
+$icon-width: 110px;
+$icon-height: 60px;
+
+%icon {
+  position: relative;
+  display: inline-block;
+  text-indent: 0;
+  line-height: 1;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin icon-size($width: $icon-width, $height: $icon-height) {
+  background-size: $width $height;
+  width: $width;
+  height: $height;
+}

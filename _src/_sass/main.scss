@@ -3,6 +3,9 @@
 
 @import "susy";
 
+// Icons
+@import "icons.scss";
+
 // Mixins
 @import "mixins.scss";
 
@@ -19,9 +22,6 @@
 
 //Site header
 @import "header.scss";
-
-// Icons
-@import "icons.scss";
 
 // Hero Banners
 @import "banners.scss";
