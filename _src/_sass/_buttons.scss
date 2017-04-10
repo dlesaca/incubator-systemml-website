@@ -1,22 +1,22 @@
 .button-primary {
   color: #fff;
-  background: $color-systemml-accent;
-  border-color: $color-systemml-accent;
+  background: $color-button-dark;
+  border-color: $color-button-dark;
   @include border-radius(3px);
   &:hover {
-    background: $color-systemml-accent-dark;
-    border-color: $color-systemml-accent-dark;
+    background: $color-button-dark;
+    border-color: $color-button-dark;
   }
 }
 
 .button-secondary {
   color: #fff;
-  background: $color-systemml-accent2;
-  border-color: $color-systemml-accent2;
+  background: $color-systemml-accent;
+  border-color: $color-systemml-accent;
   @include border-radius(3px);
   &:hover {
-    background: $color-systemml-accent2-dark;
-    border-color: $color-systemml-accent2-dark;
+    background: $color-systemml-accent;
+    border-color: $color-systemml-accent;
   }
 }
 
